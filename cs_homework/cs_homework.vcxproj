@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MAC.h" />
+    <ClInclude Include="MusicAlbum.h" />
+    <ClInclude Include="Song.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MAC.cpp" />
+    <ClCompile Include="MACTest.cpp" />
+    <ClCompile Include="MusicAlbum.cpp" />
+    <ClCompile Include="Song.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
